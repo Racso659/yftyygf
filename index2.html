@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+<html>
+	<head>
+		<title>Videojuegos</title>
+      
+		<style type="text/css">
+
+			
+	
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:auto;
+				top:0px;
+			}
+            li{
+                align-content: center;
+                text-align: center;
+                text-align-last: center;
+            }
+            ul{
+                text-align: center;
+                align-content: center;
+            }
+			
+		</style>
+	</head>
+	<body>
+    
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">pac man</a>
+					<ul>
+						<li><a href="pac man.html">pac man</a></li>
+                        <img src="https://media.redadn.es/imagenes/pac-man-vs_153054.png" alt="pac man" width="300">
+				</li>
+			</ul>
+            <li><a href="">tetris</a>
+                <ul>
+                    <li><a href="tetris.html">tetris</a></li>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/61Wvdn29vZL.png" width="300">
+                    </ul>
+                    <li><a href="">Minecraft</a>
+                        <ul>
+                            <li><a href="minecraft.html">minecraft</a></li>
+             <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/08/minecraft-2049381.jpg" alt="minecraft" width="300">
+                    </li>
+                   
+                </ul>
+            </li>
+		</div>
+	</body>
+</html>
+<head>
+    
+    <body>
+        <html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<center> <div class=»n»><p>   <font-size:"20" <b><font color=»#000000″ face=»georgia» size=»10″><marquee width=»400″ scrollamount=»5″ bgcolor=»#FFFFFF»>Bienvenid@ a mi pagina web</marquee>    </font></b></p><center>
+    <h4 class="loco"><script  language="JavaScript">  var estado=true;  setTimeout("ver()",450);  function ver (){  estado=!estado;  if(estado==true)  texto1.style.visibility="visible";  else  texto1.style.visibility="hidden";  setTimeout("ver()",450);  }  </script><p align="center" id="texto1"  style="visibility:visible"><font face="Arial, Helvetica,  sans-serif size="10" >Los videojuegos y su historia</font></p></h4>
+</center>
+    <style>
+        body{
+            background-color:rgb(grey, black, #ffff00);
+        }
+        script{
+            color: white;
+            background-color: white;
+        }
+        .uniquito{
+font-size: 2.5em;
+        }
+        h4{
+font-size: 2.5em;
+color: white;
+background-color: rgba(138, 16, 252, 0.568);
+        }
+    </style>
+ 
+
+<div  id="contenedor">
+            <style>
+            #contenedor {
+                
+                width: 80%;
+                margin: auto
+                
+                
+            }
+            </style>
+       
+        <section>
+            <body>
+            <h1 class="uniquito"><em></strong>           <script>
+                // ********** cambia aquí
+                var text = "Los videojuegos" 
+                var speed = 80 
+    
+    
+                if (document.all || document.getElementById) {
+                    document.write('<span id="highlight">' + text + '</span>')
+                    var storetext = document.getElementById ? document.getElementById("highlight") : document.all.highlight
+                } else
+                    document.write(text)
+                var hex = new Array("00", "14", "28", "3C", "50", "64", "78", "8C", "A0", "B4", "C8", "DC", "F0")
+                var r = 1
+                var g = 1
+                var b = 1
+                var seq = 1
+    
+                function changetext() {
+                    rainbow = "#" + hex[r] + hex[g] + hex[b]
+                    storetext.style.color = rainbow
+                }
+    
+                function change() {
+                    if (seq == 6) {
+                        b--
+                        if (b == 0)
+                            seq = 1
+                    }
+                    if (seq == 5) {
+                        r++
+                        if (r == 12)
+                            seq = 6
+                    }
+                    if (seq == 4) {
+                        g--
+                        if (g == 0)
+                            seq = 5
+                    }
+                    if (seq == 3) {
+                        b++
+                        if (b == 12)
+                            seq = 4
+                    }
+                    if (seq == 2) {
+                        r--
+                        if (r == 0)
+                            seq = 3
+                    }
+                    if (seq == 1) {
+                        g++
+                        if (g == 12)
+                            seq = 2
+                    }
+                    changetext()
+                }
+    
+                function starteffect() {
+                    if (document.all || document.getElementById)
+                        flash = setInterval("change()", speed)
+                }
+                starteffect();
+                </script>
+            </strong></em></h1>
+    <style>
+        h1{
+           text-align: center;
+           background-color: rgba(34, 75, 253, 0.815);
+      
+    </style>
+    
+    <div class="banner">
+    <h1 class="banner-head">
+        
+      
+    </h1>
+</div>
+            <style>
+                .banner {
+    background: transparent url('https://free4kwallpapers.com/uploads/originals/2020/04/26/the-jabronis-arcade-wallpaper.png') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Four_Arcade_Games.jpg/1280px-Four_Arcade_Games.jpg', sizingMethod='scale');
+
+    height: 200px;
+    width: 96.5%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+    .banner-head {
+        display: table-cell;
+        vertical-align: middle;
+        margin-bottom: 0;
+        font-size: 2em;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        text-shadow: 0 1px 1px black;
+    }
+    
+    @media(min-width: 767px) {
+
+.banner-head {
+    font-size: 4em;
+    background-color: rgba(255, 255, 255, 0.021);
+}
+@media (min-width: 480px) {
+    .banner {
+        height: 400px;
+    }
+    .banner-head {
+        font-size: 3em;
+    }
+}
+                    img{
+                       
+    margin:auto;
+                    }
+                </style>
+            <div align:"center">
+             <h1> <em></strong>Indice</strong></em></h1>
+             <p><a href="#contexto">1.Contexto historico<br></a></p>
+             <p><a href="#impacto">2.Impacto social y cultural<br></a></p>
+             <p><a href="#impacto 2">3.Impacto economico del gaming<br></p>
+             <p><a href="#populares">4.Entre los videojuegos mas populares de la historia estan:<br></p>
+             <p><a href="#tabla">5.Años de salida videojuegos<br></a></p>
+             <p><a href="#minijuegos">6.mini juegos de prueba<br></a></p>
+             <a href="https://www.youtube.com/watch?v=Km2ZA91VvHg"><img src="https://static.wikia.nocookie.net/marioparty/images/5/5e/Estrella.png/revision/latest/scale-to-width-down/183?cb=20121216194216&path-prefix=es" alt="egg" width="50px" ></a>
+             <style>
+                 h1{
+                     align: center;
+                 }
+                 p{
+                     text-align: center;
+                 }
+             </style>
+             </div>
+
+            <h1 id="contexto"><em></strong>Contexto historico</strong></em></h1>
+            <article>
+                <style>
+                    @font-face{
+                        font-family: 'Times New Roman';
+                        font-style: normal;
+                       font-weight: 100;
+                    }
+                    p{
+                        font-family:'Times New Roman' ;
+
+                    }
+                </style>
+
+                <p class="blanco" align="center">Existen
+numerosos debates sobre quién creó el primer videojuego, la
+respuesta varía en función de lo que entendamos por videojuegos,
+sean o no videojuegos, los primeros ejemplos se encuentran en el oxo
+(triki o tic-tac-toe) de 1952, y el tenis para dos de 1958 a 1972 se
+considera el año en el que los videojuegos finalmente comienzan
+comercialmente, aunque un año antes tenemos el juego de galaxias de
+la Universidad de Stanford y el espacio informático, ambos basados
+​​en un experimento universitario llamado palabra espacial de
+1962, peroya estamos en 1972 año en el que fuego real apodó al 
+padre de los
+videojuegos, tras muchos años de investigación magnavoz odyssey
+lanza, la primera videoconsola comercial de la historia, un
+dispositivo que se conectaba a un televisor con dos mandos
+rectangulares como mando. , la videoconsola contaba con un conjunto
+de seis cartuchos, estaba hecha exclusivamente a base de
+transistores, resistencias y condensadores, es decir, no había ni
+procesador ni unidad de memoria.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Odysseye2m.png/250px-Odysseye2m.png" width="450">
+                    </article>
+                </section>
+                </div>
+                   <div id="contenedor">
+            <style>
+            #contenedor {
+                background-image: url(https://payload.cargocollective.com/1/5/175697/13321112/Slate_Animation_F.gif);
+                width: 80%;
+                margin: 0 auto
+                
+            }
+            .blanco{
+                background-color: rgba(255, 255, 255, 0.767);
+                font-style: italic;
+                
+            }
+            
+            
+            img{}
+            </style>
+                <section>
+                
+
+                    
+                    <h1 id="impacto"> <em></strong>Impacto social y cultural</strong></em></h1>
+                    <article>
+
+                        <P class="blanco" align="center" STYLE="margin-bottom: 0.11in"><FONT COLOR="#000000"><FONT FACE="Times New Roman"><FONT SIZE=3>los
+                            videojuegos son la industria entretenimiento más poderosa del mundo,
+                            desde el norte de México, hasta el sur de chile existen millones de
+                            gamers activos, y entre los jugadores de Esport ,por ejemplo se ha
+                            recaudado más de 10 millones de dólares en ganancias, al mismo
+                            tiempo se empiezan a construir ya arenas y estadios para este tipo de
+                            actividades con un costo de hasta 2.5 millones de dólares, éstos no
+                            se detienen sino lo contrario van en constante ascenso y entre otras
+                            cosas, por el furor causado por riot games en  su clásico juego
+                            league of legends y últimamente por la expectativa de lo que se
+                            puede crear con su no tan nuevo juego, valorant en el ámbito
+                            competitivo.<br>
+                            Un impacto muy evidente, es el que se encuentra en las familias la mayor parte por los jovenes en ellas, la distraccion es tanta que no se tiene en cuenta o se distingue entre lo que esta bien en una escencia humana, donde haya una moral con nuestra familia, ultimamnete hay muchos conflictos entre padres e hijos, las reglas que se ponen pero no se cumplen en esas familias, son cosas que estan afectando 
+                            la relacion familiar entre las personas con las que convivimos.
+                        </FONT></FONT></FONT></P>
+                            </article>
+                            <style>
+                                body{
+                                    background-color:rgba(17, 188, 255, 0.712);
+                                }
+                                img{
+                                    background-color: rgba(255, 255, 255, 0.616);
+                                }
+                                p{
+                                    color: rgb(0, 0, 0)
+                                }
+                                .pacha{
+                                    color: rgb(0, 0, 0)
+                                }
+                            </style>
+                               <h1 id="impacto 2">
+                                <strong><em>Impacto economico del gaming</em></strong>
+                            </h1>
+                            <p class="pacha">De acuerdo con el Global Games Market Report 2020, el mercado mundial de los videojuegos tendrá 
+                                un valor de 159.000 millones de dólares en 2020. Este dato comporta que la industria gaming obtendrá
+                                 unos ingresos cuatro veces superiores a los del cine (43.000 millones de dólares en 2019) y casi tres
+                                  veces más a los ingresos generados por la industria musical (57.000 millones de dólares en 2019). </p>
+                            <h1 id="populares">
+                                Entre los videojuegos mas populares de la historia estan:
+                            </h1>
+                            <style>
+                                ul{
+                                    font-size: 5;
+                                }
+                               
+                            </style>
+                         
+                             <style>
+                                .parrafo {
+                                   text-align: center;
+                                   background-color: rgba(34, 202, 253, 0.815);
+                                   FONT SIZE=2px;
+                                   }
+                                   .parrafito {
+                                    text-align: center;
+                                    background-color: rgba(137, 43, 226, 0.767);
+                                    FONT SIZE=2  ;
+                                   }
+                                   .textol {
+                                    text-align: center;
+                                    background-color: rgba(143, 5, 14, 0.829);
+                                    FONT SIZE=2     ;
+                                   }
+                                   .primero {
+                                    text-align: center;
+                                    background-color: rgba(34, 75, 253, 0.815);
+                                    FONT SIZE=2  ;   
+                                   }
+                                
+                                   .segundo {
+                                    text-align: center;
+                                    background-color: rgba(120, 40, 140);
+                                    FONT SIZE=2     
+                                   }
+                                   .tercero {
+                                    text-align: center;
+                                    background-color: red;
+                                    FONT SIZE=2     
+                                   }
+                                   .cuarto {
+                                   text-align: center;
+                                   background-color: rgba(34, 202, 253, 0.815);
+                                   FONT SIZE=2
+                                   }
+                                   .quinto {
+                                    text-align: center;
+                                    background-color: rgba(137, 43, 226, 0.767);
+                                    FONT SIZE=2  
+                                   }
+                                   .sexto {
+                                    text-align: center;
+                                    background-color: rgba(143, 5, 14, 0.829);
+                                    FONT SIZE=2     
+                                   }
+                                   .septimo {
+                                    text-align: center;
+                                    background-color: rgba(34, 75, 253, 0.815);
+                                    FONT SIZE=2     
+                                   }
+                                
+                                   .octavo {
+                                    text-align: center;
+                                    background-color: rgba(120, 40, 140);
+                                    FONT SIZE=2     
+                                   }
+                                  .rojito{
+                                      background-color: red;
+                                      
+                                  }
+                                  .super{
+                                    background-color: red;
+                                      
+                                  }
+                              
+                            </style>
+                             <ul class="contenedor">
+                                
+                                <h3 class="primero"> 
+                                    <p><strong class="rojito">Pac-Man</strong> es una franquicia de videojuegos japonesa publicada, desarrollada</p>
+                                    <p>y propiedad de Bandai Namco Entertainment. Las entradas han sido desarrolladas </p>
+                                    <p>por una amplia gama de otras compañías de videojuegos, incluidas Midway</p>
+                                    <p>Games, Atari y Mass Media, Inc</p>
+                                   </h3>
+                                   
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Paku-paku2-c64.png" alt="arcade" width="450">
+                             
+                                <li><a href="https://www.nintendo.com/es_LA/games/detail/pac-man-99-switch/">Pac-Man</a></li>
+                                <h3 class="segundo"> 
+                                    <p><strong class="rojito">Tetris</strong> es un videojuego de lógica originalmente diseñado y programado</p>
+                                    <p>por Alekséi Pázhitnov en la Unión Soviética. Fue lanzado el 6 de junio de 1984 </p>
+                                    <p>mientras trabajaba para el Centro de Computación Dorodnitsyn de la Academia</p>
+                                    <p>de Ciencias de la Unión Soviética en Moscú, RSFS de Rusia.</p>
+                                   </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Tetris.jpg" alt="arcade" width="450">
+                                <li><a href="https://es.wikipedia.org/wiki/Tetris">Tetris</a></li>
+                                <h3 class="parrafo" >
+                                   
+                                    <p ><a href="https://www.nintendo.es/Juegos/NES/Super-Mario-Bros--803853.html">-<strong class="super">Super Mario Bros.</strong></a> o Super Mario Brothers es un videojuego de plataformas,</p>
+                                         <p>diseñado por Shigeru Miyamoto, lanzado el 13 de septiembre de 1985 y producido</p>
+                                         <p> por la compañía Nintendo, para la consola Nintendo Entertainment System.</p>
+                                </h3>
+                               
+
+                                <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Super_Mario_Bros._Logo.svg/245px-Super_Mario_Bros._Logo.svg.png alt="arcade" width="450">
+                                <li><a href="https://www.nintendo.es/Juegos/NES/Super-Mario-Bros--803853.html">Super Mario Bros</a></li>
+                                <h3 class="parrafito" >
+                                <p>-El personaje se inspiró en un hombre, apodado Hedgehog, que piloteó un avión durante el</p>
+                                <p>enfrentamiento bélico en 1940. Su pelo, siempre de punta, lo llevó a ser conocido como </p>
+                                <p>“El Erizo”. ... Sonic es el erizo más famoso de los videojuegos, con infinitas versiones en todas</p>
+                                <p>sus plataformas, tanto en consolas como celulares.</p>
+                            </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/WW_Chicago_2011_-_Sonic_the_Hedgehog_%288168360292%29.jpg/245px-WW_Chicago_2011_-_Sonic_the_Hedgehog_%288168360292%29.jpg" alt="arcade" width="450">
+                                <li><a href="https://www.nintendo.es/Juegos/Game-Boy-Advance/Sonic-Advance-267277.html">Sonic</a></li>
+                                <h3 class="textol">
+                                    <p>-<strong class="rojito">FIFA</strong> es una saga de videojuegos de fútbol publicados anualmente por Electronic Arts</p>
+                                    <p>bajo el sello de EA Sports creado en Japón Cuando la saga comenzó a finales de 1993</p>
+                                    <p> se destacó por ser el primero en tener una licencia oficial de la FIFA.</p>
+                                </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/FIFA_21_logo.svg/245px-FIFA_21_logo.svg.png" alt="arcade" width="450">
+                                <li>  <a href="https://www.marca.com/esports/album/2017/09/14/59ba5153ca474196458b459d_1.html">Fifa</a></li>
+                                <h3 class="tercero" >
+                                    <p>-son dos videojuegos de rol desarrollados por Game Freak y publicados por Nintendo para su consola</p>
+                                    <p>portátil Game Boy. Son las primeras entregas de la serie de videojuegos de la franquicia Pokémon.  </p>
+                                    <p> Los videojuegos fueron lanzados a la venta por primera vez en Japón, durante 1996, y en Estados Unidos,</p>
+                                    <p>Europa y Australia casi tres años después.1​ Pokémon Yellow, una versión especial,  fue lanzada al mercado aproximadamente un año más tarde.</p>
+                                </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/250px-International_Pok%C3%A9mon_logo.svg.png" alt="arcade" width="450">
+
+                                <li><a href="https://www.gamerfocus.co/juegos/pokemon-redblueyellow-campo-entrenamiento/">Pokémon Red / Blue / Yellow</a></li>
+                                    <h3 class="cuarto" >
+                                        <p>-<strong class="rojito">The Legend of Zelda</strong> es una serie de videojuegos de acción-aventura creada por los diseñadores </p>
+                                        <p>japoneses Shigeru Miyamoto y Takashi Tezuka, ​ y desarrollada por Nintendo, empresa que también se</p>
+                                        <p> encarga de su distribución internacional. </p>
+                                      
+                                    </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Zelda_Logo.svg/245px-Zelda_Logo.svg.png" alt="arcade" width="450">
+                                <p><li>  <a href="https://www.zelda.com/breath-of-the-wild/es/">The legend of zelda</a></li>
+                                    <h3 class="quinto" >
+                                        <p>-<strong class="rojito">Counter-Strike</strong> es una serie de videojuegos de disparos multijugador en primera persona</p>
+                                        <p>en los que equipos de terroristas luchan para perpetrar un acto de terror mientras </p>
+                                        <p> os antiterroristas intentan evitarlo. La serie comenzó en Windows en 1999</p>
+                                        <p> con el lanzamiento del primer juego, Counter-Strike.</p>
+                                    </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Counter-Strike_text_logo.png/245px-Counter-Strike_text_logo.png" alt="arcade" width="450">
+                            </p>
+                                <p><li><a href="https://es.wikipedia.org/wiki/Counter-Strike">Counter-strike</a></li>
+                                    <h3 class="sexto" >
+                                        <p>-<strong class="rojito">Call of Duty </strong>es una serie de videojuegos de disparos en primera persona, de estilo bélico, inspirada</p>
+                                        <p>en la guerra fria creada por Ben Chichoski, desarrollada principal  e inicialmente por Infinity Ward,</p>
+                                        <p>Treyarch, Sledgehammer Games y en menor proporción Raven Software  y distribuida por Activision. </p>
+                                        
+                                    </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/CallofDutyLogo.svg/285px-CallofDutyLogo.svg.png" alt="arcade" width="450">
+                            </p>
+                                <li><a href="https://www.callofduty.com/es/home">COD</a></li>
+                                <h3 class="septimo" >
+                                    <p>-<strong class="rojito">Grand Theft Auto</strong> es una serie de videojuegos creada por David Jones y por los hermanos Sam y Dan Houser.</p>
+                                    <p>Originalmente fue desarrollada por la compañía británica DMA Design, que posteriormente pasó a llamarse </p>
+                                    <p>Rockstar North, de la empresa Rockstar Games. </p>
+                                   
+                                </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Grand_Theft_Auto_San_Andreas_logo.svg/245px-Grand_Theft_Auto_San_Andreas_logo.svg.png" alt="arcade" width="450">
+                                <li><a href="https://gta.fandom.com/es/wiki/Grand_Theft_Auto">Gran Theft Auto</a></li>
+                                <h3 class="octavo" >
+                                    <p>-<strong class="rojito">Minecraft</strong> es un videojuego de construcción, de tipo «mundo abierto» o sandbox creado</p>
+                                    <p>originalmente por el sueco Markus Persson (conocido comúnmente como "Notch"),​ y</p>
+                                    <p>posteriormente desarrollado por su empresa, Mojang Studios. </p>
+                                    
+                                </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Minecraft_cube.svg/800px-Minecraft_cube.svg.png" alt="arcade" width="450">
+                                <li><a href="https://www.minecraft.net/es-es/">Minecraft</li></a>
+                                <h3>
+                                    <strong class="rojito">Minecraft</strong>, es un videojuego de mundo abierto donde la exploración y las construcciones son fundamentales. Creado por Markus (Notch) Persson, nos permite desarrollar nuestros propios universos fantásticos y artísticos, mediante la colocación y destrucción de bloques.
+                                </h3>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Markus_Persson_at_GDC_2011.jpg/1024px-Markus_Persson_at_GDC_2011.jpg" alt="arcade" width="450">
+                                <h1>y muchos mas..</h1>
+                                
+                             </ul>
+                             <style>
+                               
+                                 ul {
+list-style: none;
+padding: 0px;
+margin-left: 10px;
+}
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+background: url('') left;
+height: 30px;
+padding-left: 25px;
+}
+body {
+background: url('https://fondosmil.com/fondo/18820.jpg') left;
+height: 30px;
+padding-left: 25px;
+}
+
+
+                             </style>
+                              </head>
+                              <style>
+                               table {
+                             width: 100%;
+                             border: 1px solid #000;
+                          }
+                          th, td {
+                             width: 25%;
+                             text-align: left;
+                             vertical-align: top;
+                             border: 1px solid #000;
+                             border-collapse: collapse;
+                             padding: 0.3em;
+                             caption-side: bottom;
+                          }
+                          caption {
+                             padding: 0.3em;
+                             color: #fff;
+                              background: #000;
+                          }
+                          th {
+                             background: #eee;
+                          }
+                          div {
+  border: rgb(137, 0, 250)  5px solid;
+  margin: 10px;
+  padding: 10px;
+}
+.loco #loco {
+                border-top: 1px solid rgb(0, 43, 233);
+                border-bottom: 1px solid rgb(174, 0, 255);
+                padding-top: 6px;
+                padding-bottom: 6px;
+
+                                  
+                              </style>
+                              <body>
+                                <div id="contenedor 2">
+                                  <h1 id="tabla">Años de salida videojuegos</h1>
+                          
+                                  <table  
+                                  align="center">
+                                      <thead align="center">
+                                          <tr>
+                                              <th>Juego</th>
+                                              <th>Año de salida</th>
+                                              <th>ventas</th>
+                                            
+                                          </tr>
+                                      </thead>
+                                      
+                                      
+                                      <tbody>
+                          <tr>
+                              <td>Pac Man
+                               <td>22 de mayo de 1980, desde 1981 hasta 1987</td>
+                              <td>293 822 máquinas vendidas </td>
+                              
+                           </tr>
+                           
+                           <tr>
+                                   <td>Tetris
+                                   <td>14 de junio de 1989</td>
+                                   <td>43.000.000</td>
+                          </tr>
+                                    
+                          <tr>
+                                   <td>Super mario bros
+                                   <td>13 de septiembre de 1985</td>
+                                   <td>50.660.000</td>
+                          </tr> 
+                                     
+                          <tr>
+                                      <td>sonic</td>
+                                      <td>23 de junio de 1991</td>
+                                       <td>23.982.960</td>
+                           </tr>
+                           
+                          <tr>
+                                  <td>Fifa 94 </td>
+                                  <td>  diciembre de 1993</td>
+                                  <td>25.000.000</td>
+                          </tr>
+                          <tr>
+                            <td>Pokémon Red / Blue / Yellow </td>
+                            <td>  28 de septiembre de 1998</td>
+                            <td>	47.520.000</td>
+                    </tr>
+                    <tr>
+                        <td>The Legend of Zelda </td>
+                        <td>  21 de febrero de 1986</td>
+                        <td>23.140.000</td>
+                </tr>
+                <tr>
+                    <td>Counter-Strike </td>
+                    <td>  8 de noviembre de 2000</td>
+                    <td>+30.000.000</td>
+            </tr>
+            <tr>
+                <td>COD</td>
+                <td>  10 de noviembre de 2009</td>
+                <td>22.700.000</td>
+        </tr>
+        <tr>
+            <td>Gran Theft Auto </td>
+            <td>  1 de noviembre de 1997</td>
+            <td>230.000.000</td>
+    </tr>
+    <tr>
+        <td>Minecraft </td>
+        <td>  18 de noviembre de 2011</td>
+        <td>200.000.000</td>
+</tr>
+
+                                          
+                                      </tbody>
+                                  </table>
+                          
+                            </section>
+                            </div>
+                            <div id="part2">
+                                <style>
+                                #part2 {
+                                    
+                                    width: 80%;
+                                    margin: auto
+                                    
+                                    
+                                }
+                                </style>
+                                <style> 
+                                    #panel, #flip {
+                                      padding: 5px;
+                                      text-align: center;
+                                      background-color: #005c86;
+                                      border: solid 5px #a200ff;
+                                    border-radius: 20px;
+                                    }
+                                    
+                                    #panel {
+                                      padding: 10px;
+                                      display: none;
+                                    }
+                                    </style>
+                                <section>
+                          <footer>
+                           
+                          </footer>
+                        </div>
+                        <div class="banner2">
+    <h1 class="banner-head2" >
+      
+      
+    </h1>
+    
+            <style>
+                .banner2 {
+    background: transparent url('https://i2.wp.com/i.redd.it/8s2qmu9p00361.gif') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://i2.wp.com/i.redd.it/8s2qmu9p00361.gif', sizingMethod='scale');
+
+    height: 200px;
+    width: 96.5%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+    .banner-head2 {
+        display: table-cell;
+        vertical-align: middle;
+        margin-bottom: 0;
+        font-size: 2em;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        text-shadow: 0 1px 1px black;
+    }
+    
+    @media(min-width: 767px) {
+
+.banner-head2 {
+    font-size: 4em;
+    background-color: rgba(255, 255, 255, 0.021);
+}
+@media (min-width: 480px) {
+    .banner2 {
+        height: 400px;
+    }
+    .banner-head2 {
+        font-size: 3em;
+    }
+                            </style>
+                          <h2>Hecho por Oscar Alejandro Vargas Velilla</h2>
+                          <style>
+                              table{
+                                background-color: rgba(80, 0, 146, 0.336);
+                                width: 0 auto;
+                              }
+                              h2 {
+                                  background-color: white;
+                              }
+                            
+                              .tabla{
+                                  background-color: rgba(163, 67, 253, 0.301);
+                              }
+
+                          </style>
+                       
+                          
+  
+</head>
+<div id="contenedor 2">>
+</body>
+<body>
+</script></div><div class="n"><div class="n"> <a href="#" title="Ir arriba"><img alt="Ir arriba" border="0" src="flechita.png" style=position:fixed;bottom:0;right:0;/></a> </div>
+
+<script>
+    window.onload=function(){alert('Bienvenido a esta pagina');}
+    window.onunload=function(){alert('Vuelva en otro momento');}
+    
+    </script>
+   
+
+    <script>
+        document.body.oncopy = function() {
+        alert('Todos los derechos reservados. Oscar Alejandro Vargas Velilla');
+        return false;};
+        </script>
+<script>
+    function hora() {
+     var DateString=(new Date()).toString();
+     self.status=DateString.substring(0,3+DateString.lastIndexOf(':'))+
+     "Cualquier mensaje";
+     setTimeout("hora()",200);}
+    hora()
+    </script>
+   
+        <div><div id=»google_translate_element»></div><script type=»text/javascript»>//<![CDATA[function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: ‘es’}, ‘google_translate_element’);}//]]></script> <script src=»http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit» type=»text/javascript»></script></div>
+        <table class="tabla2" width="800" border="1" bgcolor="#CEE3F6">
+            <html>
+                <head>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script> 
+                    $(document).ready(function(){
+                      $("#flip").click(function(){
+                        $("#panel").slideToggle("slow");
+                      });
+                    });
+                    </script>
+                           <style> 
+                            #pequeño,  {
+                              padding: 5px;
+                              text-align: center;
+                              background-color: #005b863d;
+                              border: solid 5px #a200ff28;
+                            border-radius: 20px;
+                            }
+                            
+                            #panel {
+                              padding: 10px;
+                              display: auto;
+                            }
+                            </style>
+                    </head>
+                    <body>
+                  
+                        
+                            <section>
+                                <body>
+                                <h1 id="minijuegos" class="uniquito"><em></strong>         
+                                  <script>
+                                    // ********** cambia aquí
+                                    var text = "mini juegos" 
+                                    var speed = 80 
+                        
+                        
+                                    if (document.all || document.getElementById) {
+                                        document.write('<span id="highlight">' + text + '</span>')
+                                        var storetext = document.getElementById ? document.getElementById("highlight") : document.all.highlight
+                                    } else
+                                        document.write(text)
+                                    var hex = new Array("00", "14", "28", "3C", "50", "64", "78", "8C", "A0", "B4", "C8", "DC", "F0")
+                                    var r = 1
+                                    var g = 1
+                                    var b = 1
+                                    var seq = 1
+                        
+                                    function changetext() {
+                                        rainbow = "#" + hex[r] + hex[g] + hex[b]
+                                        storetext.style.color = rainbow
+                                    }
+                        
+                                    function change() {
+                                        if (seq == 6) {
+                                            b--
+                                            if (b == 0)
+                                                seq = 1
+                                        }
+                                        if (seq == 5) {
+                                            r++
+                                            if (r == 12)
+                                                seq = 6
+                                        }
+                                        if (seq == 4) {
+                                            g--
+                                            if (g == 0)
+                                                seq = 5
+                                        }
+                                        if (seq == 3) {
+                                            b++
+                                            if (b == 12)
+                                                seq = 4
+                                        }
+                                        if (seq == 2) {
+                                            r--
+                                            if (r == 0)
+                                                seq = 3
+                                        }
+                                        if (seq == 1) {
+                                            g++
+                                            if (g == 12)
+                                                seq = 2
+                                        }
+                                        changetext()
+                                    }
+                        
+                                    function starteffect() {
+                                        if (document.all || document.getElementById)
+                                            flash = setInterval("change()", speed)
+                                    }
+                                    starteffect();
+
+                                    </script>
+                                </strong></em></h1>
+                                     <div>
+                        <h1  class="pacman"><a href="pac man.html">Pac man <br></a></h1>
+                        <h1 class="tetris"><a href="tetris.html">Tetris<br></a></h1>
+                        <h1  class="minecraft"><a href="minecraft.html">minecraft <br></a></h1>
+                    
+                    
+                </section>
+                <input type="button" value="Imprime esta página" onclick="window.print()">
+                </body>
+                </html>
+                <head>
+                    <body>
+                      
+                            <section>
+                                <header>
+                                    <article>
+                                       
+                                              <head>
+                                                <link
+                                                  rel="stylesheet"
+                                                  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+                                                />
+                                              </div>
+                                              </div>
+                                                <style> 
+                                                 .loco {
+                                                    --animate-duration: 10s;
+                                                  }
+                                                  
+                                                 
+                                                  :root {
+                                                    --animate-duration: 800ms;
+                                                    --animate-delay: 0.9s;
+                                                  }
+                                                  div{
+                                                      align-content: center;
+                                                  }
+                                                  section{
+                                                      align-content: center;
+                                                      text-align: center;
+                                                  }
+                                                  #part2{
+                                                    width: 80%;
+                                margin: auto
+                                
+                                                  }
+                                                  .pacman{
+                                                      font-size: 20px;
+                                                      background-color: rgba(255, 255, 255, 0.685);
+                                                  }
+                                                  .minecraft{
+                                                    font-size: 20px;
+                                                      background-color: cyan;
+                                                  }
+                                                  .tetris{
+                                                    font-size: 20px;
+                                                    background-color: white;
+
+                                                  }
+                                                 
+                                  
+                          
+                
+                                                  </style>
+                                             </div>
+                                            </section>
+                
+            <tr>
+                <td>
+                    <marquee>GRACIAS POR TU VISITA :)</marquee>
+                </td>
+            </tr>
+        </table>
+    <style>
+        .tabla2{
+background-color: blueviolet;
+        }
+       
+        body {
+            font-size: 12px;
+            background-color:rgb(135, 135, 135);
+        }
+        p {
+  text-decoration-line: underline ;
+  
+}
+a {
+    background-color: yellow;
+  color: rgb(255, 0, 0);
+}
+
+a:hover {
+  background-color: rgb(255, 0, 0);
+  color: yellow;
+}
+
+p{
+    
+                 font-style: italic;
+                font-size: 1.3em;
+                 
+                 font-style: italic;
+                 font-family:'Times New Roman';
+                 
+            }
+    </style>
+    
+
+
+
+
+    <style>
+        h1{
+            align: center;
+            overflow-y: initial;
+            overflow-x: unset;
+        }
+        p{
+            text-align: center;
+        }
+        header{
+            background-color: rgba(255, 255, 255, 0.692);
+        }
+        .pacman{
+            background-color: yellow;
+            align-items: ;
+        }
+        body {
+                
+                
+                align-items: center;
+                justify-content: center;
+              }
+              div{
+        text-align: center;
+    }
+    .n #n { border-top: 1px solid rgba(0, 43, 233, 0.24);
+                border-bottom: 1px solid rgba(174, 0, 255, 0.158);
+                padding-top: 6px;
+                padding-bottom: 6px;}
+                div{}
+                
+                
+
+
+    </style>
+     
+     <body>
+        <html>
+            
+            </html>
+            </body>
+            </html>
+           
